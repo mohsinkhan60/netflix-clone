@@ -61,3 +61,49 @@
 .more-cards{
    padding-left: 6%;
 }
+@media (max-width: 1024px) {
+   .hero-caption .titleCards{
+      display: none;
+   }
+   .hero-btn{
+      margin-bottom: 30px;
+   }
+}
+@media (max-width: 800px) {
+   .hero-caption{
+      padding-left: 4%;
+   }
+   .caption-img{
+      width: 40%;
+      margin-bottom: 10px;
+   }
+   .hero-caption p{
+      font-size: 15px;
+      margin-bottom: 10px;
+   }
+   .hero-btn .btn img{
+      width: 20px;
+   }
+   .more-cards{
+      padding-left: 4%;
+   }
+}
+@media (max-width: 600px) {
+   .caption-img{
+      display: none;
+   }
+  
+   .hero-btn .btn img{
+      width: 20px;
+   }
+   .hero-btn .btn{
+      padding: 4px 10px;
+      font-size: 10px;
+      gap: 5px;
+   }
+}  
+@media (max-width: 500px) {
+   .hero-caption p{
+      display: none;
+   }
+}
